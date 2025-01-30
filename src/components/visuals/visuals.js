@@ -93,7 +93,7 @@ const UserManagement = () => {
           </tr>
         </thead>
         <tbody>
-          {users.map((user) => (
+          {users?.map((user) => (
             <tr key={user._id}>
               <td>{user.firstName}</td>
               <td>{user.lastName}</td>
